@@ -31,10 +31,9 @@ body {
 }
 
 .image {
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: url("images/image-product-desktop.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .image img {
@@ -127,6 +126,11 @@ p {
         grid-template-rows: 47% 53%;
         height: 95vh;
         width: 92%;
+    }
+
+    .image {
+        background: url("images/image-product-mobile.jpg") center;
+        background-size: cover;
     }
 
     .info {
